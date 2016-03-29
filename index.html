@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="css/styles.css" media="screen" title="no title" charset="utf-8">
+    <title>Word Puzzle!</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Input a phrase and vowels disappear!</h1>
+      <form id="inputForm">
+        <div class="form-group">
+          <label for="phrase">Enter a phrase:</label>
+          <input id="phrase" type="text" class="form-control">
+        </div>
+        <button type="submit" class="btn">Submit!</button>
+      </form>
+      <div id="output">
+        <h3>Guess the phrase:<span id="wordPuzzle"></span></h3>
+        <form>
+          <div class="form-group">
+            <label for="puzzle">Guess</label>
+            <input id="puzzle" type="text" class="form-control">
+          </div>
+          <button type="submit" class="btn">Submit!</button>
+        </form>
+      </div>
+    </div>
+
+  </body>
+</html>
